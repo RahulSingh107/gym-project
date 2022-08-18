@@ -1,0 +1,86 @@
+
+   
+    body{
+        /* CSS reset: ; */
+        
+        margin: 0px;
+        padding: 0px;
+        color:black;
+        font-family: 'Baloo 2', cursive;
+    
+    /* background-color: blueviolet; */
+    /* use ../ to go back in the folder */
+    background-image:url('../img/home2.jpg');
+    }
+   
+    .left{
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 22px;
+        top: 12px;
+        color: black;
+        font-size: 25px;
+        line-height: 0px;
+    }
+    .left:hover{
+        filter: invert(80%);
+    }
+    .left img{
+        width: 100px;
+    }
+    .right{
+        /* border: 2px solid green; */
+        display: inline-block;
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        font-size: large;
+        font: bolder;
+        line-height: 12px;
+    }
+    .center{
+        
+        /* border: 2px solid white; */
+        display: block;
+        width: 50%;
+        margin: 20px auto;
+        padding-left: 100px;
+        
+        
+        }
+        .navbar li  {
+            display: inline-block;
+        }
+        .navbar li a{
+            text-decoration: none;
+            color: black;
+            padding: 32px 23px;
+            font-size: 40px;
+            
+        }
+        .navbar li a:hover,.navbar li a.active{
+            text-decoration: underline;
+            color: rgb(15, 176, 240);
+        }
+        .right:hover{
+            filter: invert(80%);
+
+        }
+        .right img{
+            width: 70px;
+        }
+        .container{
+            border: 2px solid;
+            border-width: 10px;
+            display: inline-block;
+            margin: 150px 88px;
+            padding: 171px 193px;
+            border-radius: 50px;
+            
+            border-top: 20px solid rgb(68, 72, 107);
+            border-bottom: 20px solid rgb(68, 72, 107);
+            border-right: 15px solid rgb(15, 176, 240);
+            border-left: 15px solid rgb(15, 176, 240);
+        }
+        
